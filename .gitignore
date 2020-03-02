@@ -1,1 +1,6 @@
 .idea
+.project
+.classpath
+.settings
+.vscode
+target
