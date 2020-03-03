@@ -1,5 +1,7 @@
 package org.antogautjean;
 
+import org.antogautjean.Unit;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
