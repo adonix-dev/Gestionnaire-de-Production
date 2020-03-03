@@ -3,4 +3,9 @@
 .classpath
 .settings
 .vscode
+<<<<<<< HEAD
 target
+=======
+target
+*.class
+>>>>>>> 74d6748f6b566aa62b2de3280a231c962e2793d8

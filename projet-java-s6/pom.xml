@@ -9,8 +9,7 @@
   <version>1.0-SNAPSHOT</version>
 
   <name>projet-java-s6</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>https://github.com/adonix-dev/Gestionnaire-de-Production</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
