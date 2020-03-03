@@ -146,6 +146,7 @@ public class App extends Application {
 		csvReader.close();
 
 
+
 		launch(args);
 	}
 }
