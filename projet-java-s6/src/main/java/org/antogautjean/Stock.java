@@ -23,7 +23,7 @@ public class Stock {
             return true;
         }
         catch (Exception e){
-            e.getMessage();
+            System.out.println(e.getMessage());
             return false;
         }
     }
@@ -34,7 +34,7 @@ public class Stock {
             return true;
         }
         catch(Exception e){
-            e.getMessage();
+            System.out.println(e.getMessage());
             return false;
         }
     }

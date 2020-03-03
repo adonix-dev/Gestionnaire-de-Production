@@ -1,6 +1,6 @@
 package org.antogautjean;
 
-public enum Unit{
+public enum Unit {
 
     KG("kg"),
     LITER("litre"),
