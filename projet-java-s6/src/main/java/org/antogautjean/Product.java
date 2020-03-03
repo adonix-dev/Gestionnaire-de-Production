@@ -70,6 +70,14 @@ public class Product {
         return true;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setQuantity(Integer quantity) {
+        this.quantity = quantity;
+    }
+
     public String toString(){
 
         String description = quantity.toString() + " " + unit + " de " + name + " (" + code + ")";
