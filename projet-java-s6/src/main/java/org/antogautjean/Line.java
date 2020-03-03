@@ -18,6 +18,8 @@ public class Line {
 
     private int unqualified;
 
+    private int numberOfExecution;
+
     Line(String code, String name, HashMap<Product, Integer> input, HashMap<Product, Integer> output, int duration, int qualified, int unqualified){
 
         this.code = code;
@@ -27,6 +29,15 @@ public class Line {
         this.duration = duration;
         this.qualified = qualified;
         this.unqualified = unqualified;
+        this.numberOfExecution = 0;
+    }
+
+    public void execute(){
+        //check input exists
+        //check output exists
+        //input stock - 1
+        //output stock + 1
+        this.numberOfExecution++;
     }
 
 }
