@@ -27,6 +27,7 @@ public class Stock {
             return false;
         }
     }
+
     // produit ou code du produit ???
     public boolean deleteProduct(String code){
         try {
@@ -36,6 +37,22 @@ public class Stock {
         catch(Exception e){
             System.out.println(e.getMessage());
             return false;
+        }
+    }
+
+    public boolean deleteProduct(Product product){
+
+        return this.deleteProduct(product.getCode());
+
+    }
+
+    public Product getProduct(String code){
+        try {
+            return this.stock.get(code);
+        }
+        catch (Exception e){
+            System.out.println(e.getMessage());
+            return null;
         }
     }
 

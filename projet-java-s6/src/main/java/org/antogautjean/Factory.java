@@ -12,9 +12,10 @@ public class Factory {
 
     private Employee[] factoryEmployee;
 
-    private Double bankAccount;
+    private AccountBook[] accountBook;
 
     private Stock[] factoryStock;
 
+    private Line[] factoryProductionLine;
 
 }

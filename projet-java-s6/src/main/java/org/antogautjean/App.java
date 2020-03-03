@@ -30,7 +30,7 @@ public class App {
 				Integer quantity = Integer.parseInt(line[2]);
 				Unit unit = Unit.strToUnit(line[3]);
 
-				Product current = new Product(code, name, quantity, unit, null, null, null);
+				Product current = new Product(code, name, quantity, unit);
 				stock.put(code, current);
 			}
 			catch (Exception e){

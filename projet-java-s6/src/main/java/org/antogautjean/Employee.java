@@ -12,7 +12,8 @@ public class Employee {
 
     private Double salary;
 
-    private Integer qualification;
+    public Employee(String firstname, String lastname, Date birthDate, Double salary){
 
+    }
 
 }

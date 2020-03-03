@@ -14,30 +14,31 @@ public class Line {
 
     private int duration;
 
-    private int qualified;
+    private Employee[] qualified;
 
-    private int unqualified;
+    private Employee[] unqualified;
 
     private int numberOfExecution;
 
-    Line(String code, String name, HashMap<Product, Integer> input, HashMap<Product, Integer> output, int duration, int qualified, int unqualified){
+    public Line(String code, String name, HashMap<Product, Integer> input, HashMap<Product, Integer> output, int duration, int qualified, int unqualified){
 
         this.code = code;
         this.name = name;
         this.input = input;
         this.output = output;
         this.duration = duration;
-        this.qualified = qualified;
-        this.unqualified = unqualified;
+        this.qualified = new Employee[qualified];
+        this.unqualified = new Employee[unqualified];
         this.numberOfExecution = 0;
     }
 
-    public void execute(){
+    public boolean execute(){
         //check input exists
         //check output exists
         //input stock - 1
         //output stock + 1
         this.numberOfExecution++;
+        return true;
     }
 
 }

@@ -16,7 +16,7 @@ public class Product {
 
     private Double demand;
 
-    Product(String code, String name, int quantity, Unit unit, Double buyPrice, Double sellPrice, Double demand){
+    public Product(String code, String name, int quantity, Unit unit, Double buyPrice, Double sellPrice, Double demand){
 
         this.code = code;
         this.name = name;
@@ -25,6 +25,10 @@ public class Product {
         this.buyPrice = buyPrice;
         this.sellPrice = sellPrice;
         this.demand = demand;
+    }
+
+    public Product(String code, String name, int quantity, Unit unit){
+        this(code, name, quantity,  unit, null, null, null);
     }
 
     public String getCode() {
